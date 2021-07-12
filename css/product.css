@@ -47,7 +47,7 @@ input{
     border: 1px solid #F0F00F;
     border-radius: 10px;
     margin: 8px 5px 8px 5px;
-    max-height: 330px;
+    height: 300px;
 }
 .product img{
    border-top-left-radius: 10px;

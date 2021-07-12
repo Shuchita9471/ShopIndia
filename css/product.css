@@ -47,7 +47,7 @@ input{
     border: 1px solid #F0F00F;
     border-radius: 10px;
     margin: 8px 5px 8px 5px;
-    height: 300px;
+    height: 338px;
 }
 .product img{
    border-top-left-radius: 10px;
@@ -106,10 +106,6 @@ input{
     padding-top: 2px;
     padding-left: 4px;
     text-align: center;
-}
-
-.product:hover img{
-    height: 150px;
 }
 
 .product:hover .fa:hover{

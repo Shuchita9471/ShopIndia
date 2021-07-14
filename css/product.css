@@ -44,7 +44,7 @@ input{
 }
 
 .product{
-    border: 1px solid #F0F00F;
+    border: 1px solid #dfdfd9;
     border-radius: 10px;
     margin: 8px 5px 8px 5px;
     height: 338px;
@@ -71,50 +71,48 @@ input{
     text-align: start;
 }
 
-.size{
-    
-    display: none;
-}
-
-.product:hover .size{
+.add{
     display: flex;
-  
 }
 
-.product:hover .size-1:hover{
-   background-color: blue;
-   color: honeydew;
-}
-
-.size-1{
-    margin: 5px;
-    border: 1px solid black;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+.wish{
+    border: 1px solid rgb(238, 15, 201);
     border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 9px;
+    padding: 4px 5px 0 5px ;
+    background-color: rgb(247, 199, 237);
+    color: rgb(238, 15, 201);
 }
 
-.product:hover .fa{
-    display: flex;
-    border: 1px solid black;
-    width: 95%;
-    margin-left: 3px;
-    margin-right: 3px;
-    padding-bottom: 2px;
-    padding-top: 2px;
-    padding-left: 4px;
-    text-align: center;
+.wish:hover{
+    background-color: mediumvioletred;
+    color: oldlace;
 }
 
-.product:hover .fa:hover{
-    color: lightcoral;
+.buy{
+    border: 1px solid rgb(17, 14, 197);
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 9px;
+    padding: 2px 5px 0 5px ;
+    color: rgb(25, 16, 155);
+    background: rgb(185, 160, 231);
 }
 
-.fa{
-  display: none;
+.buy:hover{
+    background-color: rgb(63, 63, 224);
+    color: oldlace;
 }
+
+h3{
+    margin: 5px 0 0 5px;
+}
+
+p{
+    margin: 5px 0 0 5px;
+}
+
 
 @media (max-width: 680px){
     .filter-container{
